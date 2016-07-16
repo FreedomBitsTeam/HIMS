@@ -18,7 +18,7 @@
 		$authtor = $db->query($QUERY[2]."'".$row['author-id']."'");
 		$authtor = mysqli_fetch_array($authtor)['login'];
 		$len = mb_strlen($row['text'], "utf-8");
-		if ($len > 0) {
+		if ($len > 0 || $id == 0) {
 			$txt = '<span id="part0" class="txtpart">"'.$row['title'].'"<br>By '.$authtor.'</span>';
 			$x1 = 0; 
 			$x2 = 0;
