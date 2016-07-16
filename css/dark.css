@@ -1,0 +1,57 @@
+﻿/*-----------------------------------------------
+  Project HIMS 
+  "Here's my story"
+  -----------------------------------------------
+  File: dark.css                      [Dark mode]
+  -----------------------------------------------
+  Director:    elik      (Elisey Yakovlev)
+  Programmer:  SnipGhost (Mikhail Kucherenko)
+  -----------------------------------------------
+  (C) 2016, Freedom Bits Team
+------------------------------------------------*/
+body {
+	background-color: #14171A;
+	text-transform: none;
+}
+hr {
+	color: #46AFE3;
+}
+.header {
+	background-color: #343C45;
+}
+.btn {
+	color: #46AFE3;
+}
+.btn:hover {
+	color: #D96629;
+}
+.mainbtn {
+	color: #46AFE3;
+	background: #14171A;
+	border: 6px solid #46AFE3;
+	text-transform: none;
+}
+.mainbtn:hover {
+	border: 6px solid #D96629;
+	color: #D96629;
+}
+.wrapper {
+	color: #D96629;
+}
+.inp {
+	background: #252C33;
+	border: 2px solid #42484F;
+	border-radius: 5px;
+	padding: 5px 12px;
+	color: #46AFE3;
+}
+#btntxt {
+	position: absolute;
+	width: 150px;
+	height: 20px;
+	margin: auto;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}

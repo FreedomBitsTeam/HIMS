@@ -21,6 +21,7 @@
   	<!-- <meta property="og:url" content="//alicization.tk/hims/" /> -->
   	<meta property="og:image" content="img/button-start.jpg" />
 		<link href="css/style.css" media="all" rel="stylesheet" />
+		<link href="css/dark.css" media="all" rel="stylesheet" />
 		<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 		<script src="js/interface.js"></script>
 	</head>
