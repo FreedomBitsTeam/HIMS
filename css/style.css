@@ -1,0 +1,78 @@
+﻿/*-----------------------------------------------
+  Project HIMS 
+  "Here's my story"
+  -----------------------------------------------
+  File: style.css                        [Styles]
+  -----------------------------------------------
+  Director:    elik      (Elisey Yakovlev)
+  Programmer:  SnipGhost (Mikhail Kucherenko)
+  -----------------------------------------------
+  (C) 2016, Freedom Bits Team
+------------------------------------------------*/
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: #FFF;
+}
+.header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	//background-color: #1D4F73;
+	height: 80px;
+	width: 100%;
+}
+.btn {
+	display: inline-block;
+	margin-top: 15px;
+	margin-left: 15px;
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+}
+.wrapper {
+	width: 80vw;
+	height: 70vh;
+	margin: auto;
+	margin-top: 15vh;
+}
+.mainbtn {
+	width: 150px;
+	height: 150px;
+	border: 2px solid #FFF;
+	border-radius: 50%;
+	cursor: pointer;
+	position: absolute;
+	margin: auto;
+	left: 0;
+	right: 0;
+	top: 80px;
+	bottom: 100px;
+	transition: 0.2s linear;
+	background-image: url("../img/button-start.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.gobtn {
+	background-image: url("../img/button.jpg");
+}
+.endbtn {
+	background-image: url("../img/button-end.jpg");
+}
+.maintxt {
+	width: 80vw;
+	height: 50px;
+	position: absolute;
+	margin: auto;
+	left: 0;
+	right: 0;
+	top: 260px;
+	bottom: 0;
+	font-family: Tahoma;
+	font-size: 30px;
+	color: #000;
+	text-align: center;
+}
