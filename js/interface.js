@@ -27,7 +27,7 @@ function NextLine() {
 		}
 		
 	} else {
-		document.location.href = '?id=0';
+		document.location.href = '?';
 	}
 		
 }
