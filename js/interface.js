@@ -27,7 +27,7 @@ function NextLine() {
 		}
 		
 	} else {
-		document.location.href = 'http://www.snipghost.com/elik/';
+		document.location.href = '?id=0';
 	}
 		
 }
