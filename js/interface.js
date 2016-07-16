@@ -9,7 +9,25 @@
   -----------------------------------------------
   (C) 2016, Freedom Bits Team
 ------------------------------------------------*/
+
+var step = 0;
+
 function NextLine() {
-	$("#text").html("By Elik");
-	$("#clicker").addClass("gobtn");
+	
+	if (document.getElementById("part"+(step+1).toString()) != null) { 
+	
+		if (step == 0) document.getElementById("btntxt").innerHTML = $("#tstd").val();
+	
+		$("#part"+step.toString()).css("display", "none");
+		step++;
+		$("#part"+step.toString()).css("display", "block");	
+	
+		if (document.getElementById("part"+(step+1).toString()) == null) {
+			document.getElementById("btntxt").innerHTML = $("#tend").val();
+		}
+		
+	} else {
+		document.location.href = 'http://www.snipghost.com/elik/';
+	}
+		
 }
