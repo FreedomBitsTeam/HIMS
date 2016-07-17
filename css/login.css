@@ -1,0 +1,60 @@
+﻿/*-----------------------------------------------
+  Project HIMS 
+  "Here's my story"
+  -----------------------------------------------
+  File: login.css             [LogIn form styles]
+  -----------------------------------------------
+  Director:    elik      (Elisey Yakovlev)
+  Programmer:  SnipGhost (Mikhail Kucherenko)
+  -----------------------------------------------
+  (C) 2016, Freedom Bits Team
+------------------------------------------------*/
+.login {
+	width: 74px;
+	padding: 18px;
+	padding-left: 5px;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	background: #5897CD;
+	transition: 1s;
+	overflow: hidden;
+	border-radius: 10px;
+}
+.login:hover {
+	width: 300px;
+	padding-left: 18px;
+}
+.login .field {
+	padding: 2px;
+	text-align: center;
+	border-radius: 6px;
+	border: 0;
+	width: 0;
+	transition: 1s;
+	opacity: 0;
+	display: inline;
+	font-size: 14px;
+}
+.login:hover .field {
+	width: 110px;
+	opacity: 1;
+}
+.login .button {
+	position: relative;
+	font-size: 14px;
+	font-weight: bold;
+	color: #FFF;
+	display: inline;
+	float: right;
+	width: 60px;	
+	padding: 2px;
+	background: #5897CD;
+	border: 3px solid #426B8F;
+	border-radius: 6px;
+	text-transform: lowercase;
+}
+.login .button:hover {
+	color: #D9D9D9;
+	border-color: #FFF;
+}

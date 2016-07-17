@@ -21,6 +21,7 @@
   	<!-- <meta property="og:url" content="//alicization.tk/hims/" /> -->
   	<meta property="og:image" content="img/button.jpg" />
 		<link href="css/style.css" media="all" rel="stylesheet" />
+		<link href="css/login.css" media="all" rel="stylesheet" />
 		<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 		<script src="js/interface.js"></script>
 	</head>
@@ -44,6 +45,12 @@
 			<input id="tstd" type="hidden" value="<?php echo $LOC['button-std']; ?>">
 			<?php require_once('php/view.php'); ?>
 		</div>
+		
+		<form class="login" action="" method="POST">
+			<input name="username" type="text" class="field" placeholder="username"/>
+			<input name="password" type="password" class="field" placeholder="password"/>
+			<input name="startmsg" type="submit" class="button" value="LogIn"/>
+		</form>
 		
 	</body>
 </html>
