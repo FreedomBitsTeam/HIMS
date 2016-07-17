@@ -21,13 +21,15 @@
   	<!-- <meta property="og:url" content="//alicization.tk/hims/" /> -->
   	<meta property="og:image" content="img/button.jpg" />
 		<link href="css/style.css" media="all" rel="stylesheet" />
+		<link href="css/menu.css" media="all" rel="stylesheet" />
 		<link href="css/login.css" media="all" rel="stylesheet" />
 		<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 		<script src="js/interface.js"></script>
 	</head>
 	<body>
 		
-		<div class="header">
+		<div class="header noselect">
+			<div class="marker">M</div>
 			<div class="btn" style="margin-top: 30px;"></div><br>
 			<a href="#" id="btn1" class="btn"><?php echo $LOC['stories']; ?></a>
 			<hr>
