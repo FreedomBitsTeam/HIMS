@@ -49,8 +49,8 @@
 		</div>
 		
 		<form class="login" action="" method="POST">
-			<input name="username" type="text" class="field" placeholder="username"/>
-			<input name="password" type="password" class="field" placeholder="password"/>
+			<input name="username" type="text" class="field" placeholder="username" required/>
+			<input name="password" type="password" class="field" placeholder="password" required/>
 			<input name="startmsg" type="submit" class="button" value="LogIn"/>
 		</form>
 		
