@@ -13,11 +13,11 @@ body {
 	background-color: #14171A;
 	text-transform: none;
 }
-hr {
-	color: #46AFE3;
-}
 .header {
 	background-color: #343C45;
+}
+header hr {
+	color: #46AFE3;
 }
 .btn {
 	color: #46AFE3;
@@ -54,4 +54,29 @@ hr {
 	left: 0;
 	right: 0;
 	bottom: 0;
+}
+.marker {
+	background: #343C45;
+	height: 35px;
+	padding-top: 10px;
+	color: #D96629;
+}
+.login {
+	top: 20px;
+	right: 15px;
+	background: #343C45;
+}
+.login .field {
+	color: #46AFE3;
+	font-weight: bold;
+	background: #14171A;
+}
+.login .button {
+	background: #343C45;
+	color: #46AFE3;
+	border-color: #46AFE3;
+}
+.login .button:hover {
+	color: #D96629;
+	border-color: #D96629;
 }

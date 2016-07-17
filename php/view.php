@@ -32,7 +32,7 @@
 					$txt .= '<span id="part'.$c.'" class="txtpart">'.$str.'</span>';
 				}
 			}
-			printf('<div id="clicker" class="mainbtn" onClick="NextLine();"><div id="btntxt">%s</div></div>', $LOC['button-start']);
+			printf('<div id="clicker" class="mainbtn noselect" onClick="NextLine();"><div id="btntxt">%s</div></div>', $LOC['button-start']);
 			print('<div id="text" class="maintxt">');
 			print($txt);
 			print('</div>');
@@ -41,7 +41,7 @@
 						  %s ID = "%s" %s<br><br>
 					    <form action="">
 					      %s <input type="text" class="inp" name="id" value="" />
-					      <input type="submit" value="%s" class="mainbtn boll" />
+					      <input type="submit" value="%s" class="mainbtn boll noselect" />
 					    </form>
 					    </div>', $LOC['msg1-1'], $id, $LOC['msg1-2'], $LOC['msg2-1'], $LOC['msg3-1']);
 		}
@@ -49,7 +49,7 @@
 		printf('<div id="text" class="maintxt">
 					  <form action="">
 					    %s <input type="text" class="inp" name="id" value="" />
-					    <input type="submit" value="%s" class="mainbtn boll" />
+					    <input type="submit" value="%s" class="mainbtn boll noselect" />
 					  </form>
 					  </div>', $LOC['msg2-1'], $LOC['msg3-1']);
 	}
