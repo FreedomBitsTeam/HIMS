@@ -13,14 +13,14 @@
 	
 	//================================================================================================
 	
-	$DB['host'] = 'localhost';     // host, default: localhost
-	$DB['user'] = 'admin';         // user, default: admin
-	$DB['pswd'] = 'qwerty';        // password for user, default: qwerty
-	$DB['dbnm'] = 'hims';   			 // database name, default: hims
+	$DB['host'] = 'mysql.hostinger.ru';      // host, default: localhost
+	$DB['user'] = 'u690683553_elik';         // user, default: admin
+	$DB['pswd'] = '214736';                  // password for user, default: qwerty
+	$DB['dbnm'] = 'u690683553_hims';         // database name, default: hims
 	
 	//================================================================================================
 	
-	$SYS['loc'] = "en";						 // system localization file, default: en
+	$SYS['loc'] = "en";                      // system localization file, default: en
 	
 	//================================================================================================
 	
