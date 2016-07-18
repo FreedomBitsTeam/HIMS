@@ -15,7 +15,7 @@
 	<head>
 		<title>Demo</title>
 		<meta http-equiv="Content-Language" content="ru">
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta http-equiv="content-type" content="text/html; charset="utf-8" />
 		<meta property="og:title" content="Here’s my story" />
 		<!-- <meta property="og:description" content="" /> -->
   	<!-- <meta property="og:url" content="//alicization.tk/hims/" /> -->
